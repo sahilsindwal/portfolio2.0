@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    /* equal to 1 rem*/
+}
+
+body {
+    background-color: #fff7eb;
+}
+
+header {
+    height: 120px;
+    box-shadow: 1px 1px 4px 1px rgb(218, 172, 155);
+}
+
+.intro {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.intro h1 {
+    text-transform: uppercase;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links li a {
+    position: relative;
+    top: 2.5rem;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    padding: 1rem;
+    transition: all 0.4s linear 5ms;
+    margin: 1rem;
+}
+
+.links li a:hover {
+    background-color: rgb(248, 198, 180);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    position: relative;
+    top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border-right: 2px solid rgb(218, 172, 155);
+}
+
+.overlay img {
+
+    border-radius: 100%;
+}
+
+.namste h2 {
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+
+.namste p {
+    font-size: 2rem;
+}
+
+.about {
+    position: relative;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.namste {
+    text-align: center;
+}
+
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-bottom: 2px solid rgb(218, 172, 155);
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.resume-child {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    width: 80px;
+    height: 80px;
+    background-color: #f3d5a9;
+    margin: 5px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.rskills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+}
+
+.rskills h2 {
+    border-right: 2px solid #e6951b;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.skills-data {
+    padding: 4rem;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+}
+
+.skills-data i {
+    padding: 1rem;
+    color: #e6951b;
+}
+
+.skills-data h4 {
+    border-bottom: 2px dotted #e6951b;
+    padding: 1rem;
+}
+
+/************footer work here ***********/
+
+footer {
+    font-size: 1.5rem;
+    position: relative;
+    top: 200px;
+    background-color: rgb(69, 70, 56) 73%;
+    font-family: sans-serif;
+    box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
+
+}
+
+.quick h3 {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    color: rgb(68, 68, 68);
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 7px 5px 6px;
+
+}
+
+.quick h3:hover {
+    color: rgb(167, 154, 37);
+}
+
+.quick ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quick ul li {
+
+    padding: 6px;
+}
+
+.shear_maintainer {
+    margin-top: 3rem;
+    padding-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.followUs h4 {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 2px solid rgb(66, 61, 61);
+    width: max-content;
+    margin-left: 3.2rem;
+    padding-bottom: 2px;
+
+}
+
+.followUs h4:hover,
+.dh:hover {
+    color: #3494E6;
+    border-bottom: 2px solid rgb(211, 97, 21);
+    transition: 1s;
+
+}
+
+.shear {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.shear i {
+    padding-left: 15px;
+}
+
+footer i:hover {
+    color: rgb(230, 226, 30);
+    transition: 0.5s;
+}
+
+
+.m-logo img {
+
+    margin: 3px;
+    max-width: 35px;
+
+}
+
+
+/* copyright & designed heading */
+
+.ms {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    margin-right: 20px;
+    text-align: center;
+
+
+}
+
+
+.dh {
+    font-size: 12px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: max-content;
+    padding-bottom: 3px;
+}
+
+.copy {
+    box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.policy {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+.copyRight {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.bb {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+}
+
+.ico {
+    color: #070707;
+    font-size: 2.4rem;
+
+}

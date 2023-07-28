@@ -1,0 +1,35 @@
+@media only screen and (max-width:850px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .about {
+        top: 2rem;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    html {
+        font-size: 8px;
+    }
+
+    .profile img {
+        width: 50%;
+    }
+
+    .overlay {
+        width: 100px;
+        height: 100px;
+    }
+
+    .data {
+        flex-direction: column;
+        top: 2rem;
+        position: relative;
+    }
+
+    .main-container{
+        top: 3rem;
+    }
+}
