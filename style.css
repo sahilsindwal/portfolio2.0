@@ -283,7 +283,7 @@ footer i:hover {
 .copy {
     box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
     padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding: 0.7rem;
     max-width: 100%;
     display: flex;
     justify-content: space-around;

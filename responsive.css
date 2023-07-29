@@ -1,11 +1,31 @@
 @media only screen and (max-width:850px) {
+
+    .profile img {
+        width: 70%;
+    }
+
+    .overlay {
+        width: 200px;
+        height: 200px;
+    }
+
     .main-container {
         flex-direction: column;
+    }
+
+    .data {
+        flex-direction: column;
+        top: 2rem;
+        position: relative;
     }
 
     .about {
         top: 2rem;
         left: 0;
+    }
+
+    .copy {
+        flex-direction: column;
     }
 }
 
@@ -23,13 +43,10 @@
         height: 100px;
     }
 
-    .data {
-        flex-direction: column;
-        top: 2rem;
-        position: relative;
-    }
 
-    .main-container{
+    .main-container {
         top: 3rem;
     }
+
+
 }
