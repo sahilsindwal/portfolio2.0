@@ -34,7 +34,12 @@ header {
     align-items: center;
 }
 
+abbr[title] {
+    text-decoration: none;
+}
+
 .links li a {
+    text-transform: uppercase;
     position: relative;
     top: 2.5rem;
     border-radius: 10px;
@@ -117,6 +122,12 @@ a {
     border-bottom: 2px solid rgb(218, 172, 155);
     margin: 5px;
     border-radius: 50%;
+    transition: all 0.4s ease-in;
+}
+
+.resume:hover {
+    box-shadow: 1px 1px 10px #f7cd8f;
+
 }
 
 .resume-child {
