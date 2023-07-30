@@ -15,6 +15,7 @@ body {
 
 header {
     height: 120px;
+    background-color:#ffe8c6;
     box-shadow: 1px 1px 4px 1px rgb(218, 172, 155);
 }
 
@@ -302,7 +303,7 @@ footer {
     font-size: 1.5rem;
     position: relative;
     top: 200px;
-    background-color: rgb(69, 70, 56) 73%;
+    background-color:#ffe8c6;
     font-family: sans-serif;
     box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
 
