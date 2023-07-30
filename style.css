@@ -15,7 +15,7 @@ body {
 
 header {
     height: 120px;
-    background-color:#ffe8c6;
+    background-color: #fff5e2;
     box-shadow: 1px 1px 4px 1px rgb(218, 172, 155);
 }
 
@@ -66,20 +66,20 @@ a {
     right: 0;
     z-index: 50;
     background-color: #fcdaa8;
-    
+
 }
 
 .ins1 {
-    top: 50%;
+    top: 20rem;
     border-top-left-radius: 50%;
 }
 
 .ins2 {
-    top: 58%;
+    top: 25rem;
 }
 
 .ins3 {
-    top: 66%;
+    top: 30rem;
     border-bottom-right-radius: 50%;
 }
 
@@ -303,7 +303,7 @@ footer {
     font-size: 1.5rem;
     position: relative;
     top: 200px;
-    background-color:#ffe8c6;
+    background-color: #fff5e2;
     font-family: sans-serif;
     box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
 
