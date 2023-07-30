@@ -27,6 +27,18 @@
     .copy {
         flex-direction: column;
     }
+
+    .project-data {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .pd2 {
+        margin-top: 2rem;
+
+    }
 }
 
 @media only screen and (max-width:350px) {
@@ -46,6 +58,10 @@
 
     .main-container {
         top: 3rem;
+    }
+
+    .pd2 img {
+        max-width: 100%;
     }
 
 

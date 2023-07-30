@@ -153,7 +153,7 @@ a {
     top: 12rem;
 }
 
-.rskills h2 {
+.sub-head {
     border-right: 2px solid #e6951b;
     text-align: center;
     font-size: 3rem;
@@ -178,6 +178,80 @@ a {
     border-bottom: 2px dotted #e6951b;
     padding: 1rem;
 }
+
+
+/* project section work */
+.projects {
+    max-height: 100vh;
+    position: relative;
+    top: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-data {
+    display: flex;
+    justify-content: center;
+}
+
+.pd1,
+.pd2 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pd1 p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.pd1 h2 {
+    padding: 1rem;
+    text-shadow: 7px 5px 6px;
+    font-family: cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.pd-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.pd-btn a {
+    text-transform: capitalize;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 6%;
+    text-decoration: none;
+    font-size: calc(0.7vw + 0.5rem);
+    border: 2px solid rgb(247, 184, 68);
+    background-color: #f1ce9a;
+    transition: all 0.7s ease-out;
+}
+
+.pd-btn a:hover {
+    background-color: #eea12f;
+
+}
+
+.pd2 h3 {
+    font-family: cursive;
+    padding: 1rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.pd2 img {
+    max-width: calc(2vw + 50%)
+}
+
+
 
 /************footer work here ***********/
 
