@@ -58,6 +58,49 @@ a {
     color: black;
 }
 
+/* fixed left side icon work */
+
+.in-co {
+    position: fixed;
+    right: 0;
+    z-index: 50;
+    background-color: #fcdaa8;
+    
+}
+
+.ins1 {
+    top: 50%;
+    border-top-left-radius: 50%;
+}
+
+.ins2 {
+    top: 58%;
+}
+
+.ins3 {
+    top: 66%;
+    border-bottom-right-radius: 50%;
+}
+
+
+.ins i {
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    transition: all 1s ease-in;
+    display: block;
+    width: fit-content;
+}
+
+.ins i:hover {
+    transition: all 0.5s ease-in;
+    padding-right: 6rem;
+    background-color: #f3a126;
+}
+
+
+/* fixed left side icon work end here*/
+
+/* main container work start here */
 .main-container {
     position: relative;
     top: 7rem;
