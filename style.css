@@ -251,6 +251,9 @@ a {
     font-size: 2rem;
     text-align: center;
     padding: 0 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
 }
 
 .pd1 h2 {
