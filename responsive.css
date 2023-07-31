@@ -1,3 +1,9 @@
+@media only screen and (max-width:1216px) {
+    .name {
+        display: block;
+    }
+}
+
 @media only screen and (max-width:850px) {
 
     .profile img {
@@ -62,6 +68,11 @@
 
     .pd2 img {
         max-width: 100%;
+    }
+
+    .namste {
+        position: relative;
+        top: 2rem;
     }
 
 

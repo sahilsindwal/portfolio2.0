@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    height: 120px;
+    height: 60px;
     background-color: #fff5e2;
     box-shadow: 1px 1px 4px 1px rgb(218, 172, 155);
 }
@@ -128,8 +128,16 @@ a {
 }
 
 .namste h2 {
-    font-size: calc(4vw + 2rem);
+    font-size: calc(2vw + 1rem);
     text-transform: capitalize;
+}
+
+.namste .name {
+    font-size: calc(2vw + 3rem);
+    color: rgb(255, 97, 6);
+    border-bottom: 2px dotted orange;
+    animation: texto 2s infinite;
+    text-shadow: 0.3rem 0.3rem 0.2rem rgb(56, 56, 54);
 }
 
 .namste p {
