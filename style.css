@@ -248,11 +248,50 @@ a {
 
 /* project section work */
 .projects {
+    margin: 1rem;
     max-height: 100vh;
     position: relative;
+    margin-bottom: 4rem;
     top: 15rem;
     display: flex;
     justify-content: space-around;
+}
+
+.sub-head {
+    padding: 1rem;
+}
+
+.projects .num {
+    color: rgb(255, 97, 6);
+    animation: proj-num 5s ease-in-out infinite;
+    margin-top: 1rem;
+}
+
+@keyframes proj-num {
+    0% {
+        color: rgb(255, 97, 6);
+        box-shadow: 2px 2px 2px rgb(255, 97, 6);
+    }
+
+    25% {
+        color: rgb(54, 100, 22);
+        box-shadow: 2px 2px 2px rgb(54, 100, 22);
+    }
+
+    50% {
+        color: rgb(10, 6, 255);
+        box-shadow: 2px 2px 2px rgb(10, 6, 255);
+    }
+
+    75% {
+        color: rgb(255, 6, 243);
+        box-shadow: 2px 2px 2px rgb(255, 6, 243);
+    }
+
+    100% {
+        color: rgb(255, 126, 6);
+        box-shadow: 2px 2px 2px rgb(255, 126, 6);
+    }
 }
 
 .project-data {
@@ -276,6 +315,7 @@ a {
     line-height: 2.5rem;
     letter-spacing: 0.1rem;
     word-spacing: 0.2rem;
+    max-width: 100rem;
 }
 
 .pd1 h2 {
@@ -298,7 +338,7 @@ a {
     margin: 1rem;
     border-radius: 6%;
     text-decoration: none;
-    font-size: calc(0.7vw + 0.5rem);
+    font-size: calc(0.7vw + 0.9rem);
     border: 2px solid rgb(247, 184, 68);
     background-color: #f1ce9a;
     transition: all 0.7s ease-out;
