@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    height: 60px;
+    height: 130px;
     background-color: #fff5e2;
     box-shadow: 1px 1px 4px 1px rgb(218, 172, 155);
 }
@@ -22,10 +22,24 @@ header {
 .intro {
     font-size: 1.6rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro h1 {
+    margin: 0.5rem;
     text-transform: uppercase;
+    border-bottom: 2px double orange;
+    width: fit-content;
+}
+
+.intro p {
+    padding: 0.3rem;
+    font-family: cursive;
+    width: fit-content;
+    box-shadow: -1px 1px 3px orange;
 }
 
 .links {
