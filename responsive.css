@@ -34,6 +34,11 @@
         flex-direction: column;
     }
 
+    .project2 {
+        top: 27rem;
+        margin-bottom: 15rem;
+    }
+
     .project-data {
         flex-direction: column;
         justify-content: center;
