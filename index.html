@@ -16,7 +16,8 @@
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/cvPermissions.css">
 </head>
 
 <body>
@@ -78,7 +79,7 @@
             <div class="data">
                 <div class="resume">
                     <div class="resume-child">
-                        <a href="#">my resume</a>
+                        <a href="#" onclick="cvWindow()" id="cvwin">my resume</a>
                     </div>
                 </div>
                 <div class="resume">
@@ -94,6 +95,15 @@
             </div>
         </div>
     </main>
+
+    <!-- cv downloading Permissions code plate -->
+    <div class="cvPermissions">
+        <i class='bx bx-x cvico' onclick="closeWindow()"></i>
+        <h4 id="cvText">pelase enter the <span>token</span></h4>
+        <input type="number" id="token">
+        <button type="submit" onclick="getVal()" class="cvsub">Go</button>
+        <a href="downloads/resume01.pdf" id="cvbtn" download>Download</a>
+    </div>
 
     <!-- skills section show on website, here is the code of it  -->
     <section class="rskills" id="skills">
@@ -283,5 +293,6 @@
     </footer>
 
 </body>
+<script src="js/main.js"></script>
 
 </html>
