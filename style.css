@@ -14,9 +14,15 @@ body {
 }
 
 header {
-    height: 130px;
-    background-color: #fff5e2;
-    box-shadow: 1px 1px 4px 1px rgb(218, 172, 155);
+    color: white;
+    height: 106px;
+    /* background-color: #fff5e2; */
+    background-image: url('images/c.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(240, 201, 151);
+    box-shadow: 1px 1px 10px 2px rgb(250, 113, 120);
 }
 
 .intro {
@@ -28,18 +34,13 @@ header {
     align-items: center;
 }
 
-.intro h1 {
-    margin: 0.5rem;
-    text-transform: uppercase;
-    border-bottom: 2px double orange;
-    width: fit-content;
-}
-
 .intro p {
+    font-size: 3rem;
     padding: 0.3rem;
     font-family: cursive;
     width: fit-content;
-    box-shadow: -1px 1px 3px orange;
+    text-shadow: 4px 5px 2px rgb(201, 96, 101);
+
 }
 
 .links {
@@ -61,6 +62,7 @@ abbr[title] {
     font-size: 1.6rem;
     padding: 1rem;
     transition: all 0.4s linear 5ms;
+    color: white;
     margin: 1rem;
 }
 
