@@ -30,3 +30,6 @@ function getVal() {
         cvText.textContent = `you don't have permissions`;
     }
 }
+
+
+document.querySelector('video').playbackRate = 0.5;
