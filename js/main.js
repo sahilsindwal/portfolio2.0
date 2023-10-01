@@ -1,3 +1,25 @@
+
+// loader script
+document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+        document.querySelector(
+            "body").style.visibility = "hidden";
+        document.querySelector(
+            "#loader").style.visibility = "visible";
+        document.querySelector(
+            "#wait").style.visibility = "visible";
+    } else {
+        document.querySelector(
+            "#loader").style.display = "none";
+        document.querySelector(
+            "body").style.visibility = "visible";
+        document.querySelector(
+            "#wait").style.display = "none";
+    }
+};
+
+// cv permissions code
+
 let win = document.querySelector('.cvPermissions');
 
 function closeWindow() {
@@ -33,3 +55,4 @@ function getVal() {
 
 // video speed rate handle
 document.querySelector('video').playbackRate = 0.6;
+

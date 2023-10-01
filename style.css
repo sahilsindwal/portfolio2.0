@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #fff7eb;
+    background-color: #3d3d3c;
     color: white;
 }
 
@@ -23,6 +23,36 @@ video {
     filter: brightness(30%);
 }
 
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 200px;
+    height: 200px;
+    animation: spin 1s linear infinite;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#wait {
+    text-transform: capitalize;
+    color: #e0d2d2;
+    font-size: 4rem;
+    padding: 2rem;
+}
 
 header {
     color: white;
