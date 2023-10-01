@@ -11,19 +11,22 @@ html {
 
 body {
     background-color: #fff7eb;
+    color: white;
 }
 
 video {
     object-fit: cover;
-    min-width: 100%;
-    height: 100%;
-    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
     z-index: -69;
+    filter: brightness(30%);
 }
 
 
 header {
     color: white;
+    opacity: 0.8;
     height: 106px;
     /* background-color: #fff5e2; */
     background-image: url('images/c.jpg');
@@ -90,7 +93,7 @@ a {
     position: fixed;
     right: 0;
     z-index: 50;
-    background-color: #fcdaa8;
+    background-color: #201f1d;
 
 }
 
@@ -120,7 +123,7 @@ a {
 .ins i:hover {
     transition: all 0.5s ease-in;
     padding-right: 6rem;
-    background-color: #f3a126;
+    background-color: #252524;
 }
 
 
@@ -337,6 +340,7 @@ a {
     font-family: cursive;
     font-size: 4rem;
     text-align: center;
+    color: #999090;
 }
 
 .pd-btn {
@@ -367,10 +371,12 @@ a {
     padding: 1rem;
     text-transform: capitalize;
     font-size: 2rem;
+    color: #b6aaaa;
 }
 
 .pd2 img {
-    max-width: calc(2vw + 50%)
+    max-width: calc(2vw + 50%);
+    border-radius: 1rem;
 }
 
 
@@ -381,17 +387,22 @@ footer {
     font-size: 1.5rem;
     position: relative;
     top: 200px;
+    background-image: url('images/c.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #fff5e2;
     font-family: sans-serif;
     box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
-
+    opacity: 0.9;
 }
 
 .quick h3 {
+    text-transform: capitalize;
+    color: #b6aaaa;
     padding: 20px;
     text-align: center;
     font-family: 'Tangerine', serif;
-    color: rgb(68, 68, 68);
     font-size: 2rem;
     font-weight: 900;
     text-shadow: 7px 5px 6px;
@@ -399,7 +410,7 @@ footer {
 }
 
 .quick h3:hover {
-    color: rgb(167, 154, 37);
+    color: #ccc2c2;
 }
 
 .quick ul {
@@ -425,6 +436,7 @@ footer {
 }
 
 .followUs h4 {
+    color: #b6aaaa;
     font-size: 12px;
     text-align: center;
     color: #000000;
@@ -437,7 +449,7 @@ footer {
 
 .followUs h4:hover,
 .dh:hover {
-    color: #3494E6;
+    color: #e0d2d2;
     border-bottom: 2px solid rgb(211, 97, 21);
     transition: 1s;
 
@@ -452,16 +464,17 @@ footer {
 
 .shear i {
     padding-left: 15px;
+    color: #b6aaaa;
 }
 
 footer i:hover {
-    color: rgb(230, 226, 30);
+    color: rgb(230, 120, 30);
     transition: 0.5s;
 }
 
 
 .m-logo img {
-
+    border-radius: 100%;
     margin: 3px;
     max-width: 35px;
 
@@ -471,7 +484,7 @@ footer i:hover {
 /* copyright & designed heading */
 
 .ms {
-    color: rgb(0, 0, 0);
+    color: #b6aaaa;
     transition: 0.5s;
     margin-right: 20px;
     text-align: center;
@@ -482,13 +495,13 @@ footer i:hover {
 
 .dh {
     font-size: 12px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid #b6aaaa;
     width: max-content;
     padding-bottom: 3px;
 }
 
 .copy {
-    box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
+    box-shadow: 2px 1px 5px 1px #b6aaaa;
     padding-bottom: 1rem;
     padding: 0.7rem;
     max-width: 100%;
@@ -499,26 +512,26 @@ footer i:hover {
 }
 
 .policy {
-    color: rgb(0, 0, 0);
+    color: #b6aaaa;
     cursor: pointer;
 }
 
 
 
 .copyRight {
-    color: rgb(0, 0, 0);
+    color: #b6aaaa;
     text-align: center;
     cursor: pointer;
 
 }
 
 .bb {
-    color: rgb(0, 0, 0);
+    color: #b6aaaa;
     font-size: 1.3rem;
 }
 
 .ico {
-    color: #070707;
+    color: #b6aaaa;
     font-size: 2.4rem;
 
 }

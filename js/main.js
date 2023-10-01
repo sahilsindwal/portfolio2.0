@@ -31,5 +31,5 @@ function getVal() {
     }
 }
 
-
-document.querySelector('video').playbackRate = 0.5;
+// video speed rate handle
+document.querySelector('video').playbackRate = 0.6;
