@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #3d3d3c;
+    background-color: #202020;
     color: white;
 }
 
@@ -24,12 +24,12 @@ video {
 }
 
 #loader {
-    border: 12px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 12px solid #444444;
-    width: 200px;
-    height: 200px;
-    animation: spin 1s linear infinite;
+    /* border: 2px solid rgb(238, 232, 232); */
+    border-left: 2px solid rgb(221, 221, 221);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    animation: loader 1s infinite;
 }
 
 .center {
@@ -41,9 +41,13 @@ video {
     margin: auto;
 }
 
-@keyframes spin {
-    100% {
+@keyframes loader {
+    to {
         transform: rotate(360deg);
+    }
+
+    from {
+        transform: rotate(0deg);
     }
 }
 

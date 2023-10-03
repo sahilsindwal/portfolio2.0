@@ -3,10 +3,14 @@
     text-align: center;
     background-color: rgb(240, 201, 151);
     width: fit-content;
+    height: fit-content;
     padding: 4rem;
     position: absolute;
-    top: 30rem;
-    left: 40%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     border-radius: 1rem;
     opacity: 0.9;
     transition: all 1s ease-in 2s;
