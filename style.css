@@ -433,18 +433,18 @@ footer {
 
 .quick h3 {
     text-transform: capitalize;
-    color: #b6aaaa;
+    color: #1f1e1e;
     padding: 20px;
     text-align: center;
     font-family: 'Tangerine', serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
     text-shadow: 7px 5px 6px;
 
 }
 
 .quick h3:hover {
-    color: #ccc2c2;
+    color: #585757;
 }
 
 .quick ul {
@@ -473,7 +473,6 @@ footer {
     color: #b6aaaa;
     font-size: 12px;
     text-align: center;
-    color: #000000;
     border-bottom: 2px solid rgb(66, 61, 61);
     width: max-content;
     margin-left: 3.2rem;
@@ -527,7 +526,8 @@ footer i:hover {
 }
 
 
-.dh {
+.followUs .dh {
+    color: #b6aaaa;
     font-size: 12px;
     border-bottom: 2px solid #b6aaaa;
     width: max-content;
