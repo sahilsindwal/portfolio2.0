@@ -4,4 +4,4 @@
 
 <h2>🚀 Demo</h2>
 
-[https://sahil-sindwal.github.io/portfolio2.0/](https://sahil-sindwal.github.io/portfolio2.0/)
+[https://sahilsindwal.github.io/portfolio2.0/](https://sahilsindwal.github.io/portfolio2.0/)
