@@ -50,6 +50,43 @@
         margin-top: 2rem;
 
     }
+
+    .pd-btn a {
+        border: none;
+    }
+
+    .pd-btn a:hover {
+        color: white;
+        background-image: url(../resources/saaa.gif);
+        background-position: center;
+        outline: none;
+    }
+
+    header {
+        background-image: url('../resources/saaa.gif');
+    }
+
+    footer {
+        background-image: url('../resources/saaa.gif');
+    }
+
+    /* fixed left side icon work */
+
+    .ins1 {
+        background-image: url(../resources/saaa.gif);
+        background-position: center;
+
+    }
+
+    .ins2 {
+        background-image: url(../resources/saaa.gif);
+        background-position: center;
+    }
+
+    .ins3 {
+        background-image: url(../resources/saaa.gif);
+        background-position: center;
+    }
 }
 
 @media only screen and (max-width:350px) {
@@ -84,6 +121,4 @@
         position: relative;
         top: 2rem;
     }
-
-
 }
